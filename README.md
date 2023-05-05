@@ -6,7 +6,10 @@ estimates the energy (kilowatt hours) and carbon emissions (metric tons CO2e)
 from public cloud provider utilization.
 
 These values are based on the [SPECpower_ssj2008
-results](https://www.spec.org/power_ssj2008/results/). 
+results](https://www.spec.org/power_ssj2008/results/).
+
+The original work was done by [David Mytton](http://davidmytton.co.uk/) and it is archived
+[here](https://github.com/cloud-carbon-footprint/cloud-carbon-coefficients).
 
 ## Outputs
 
@@ -36,7 +39,7 @@ This command line is writen in Python and manages its dependencies through
 
 Looking at the help output, you can see the available commands:
 
-```bash
+```
 $ poetry run ccfcoef --help
 
 Usage: ccfcoef [OPTIONS] COMMAND [ARGS]...
@@ -63,7 +66,7 @@ Commands:
 * `usage-coefficients`: This command will calculate the usage coefficients for
   each cloud provider and output them to CSV in `output/`.
 
-```bash
+```
 $ poetry run ccfcoef usage-coefficients -w
 
 Calculating usage coefficients...
@@ -84,7 +87,7 @@ Writing to output/coefficients-aws-use.csv, 11 entries.
 * `embodied-coefficients`: This command will calculate the embodied coefficients
   for each cloud provider and output them to CSV in `output/`.
 
-```bash
+```
 $ poetry run ccfcoef embodied-coefficients -w
 
 Calculating embodied coefficients...
@@ -103,7 +106,7 @@ Writing to output/coefficients-aws-embodied.csv, 621 entries.
 * `update-specpower`: This command will fetch a new version of the SPECpower
   results file from the SPEC website and save it to `data/`.
 
-```bash
+```
 $ poetry run ccfcoef update-specpower
 
 Updating SPECpower data...
@@ -125,7 +128,7 @@ option and will set the SPECpower version for all commands.
 * `list-specs`: This command will display all available SPECpower results files
   in `data/`. See example below.
 
-```bash
+```
 $ poetry run ccfcoef list-specs
 
 Available SPECpower results files:
