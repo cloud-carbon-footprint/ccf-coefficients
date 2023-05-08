@@ -2,32 +2,27 @@
 
 This tool calculates the coefficients used in [Cloud Carbon
 Footprint](https://www.cloudcarbonfootprint.org/), an application that
-estimates the energy (kilowatt hours) and carbon emissions (metric tons CO2e)
-from public cloud provider utilization.
+estimates the energy (kilowatt-hours) and carbon emissions (metric tons CO2e)
+from public cloud provider utilization. We use the [SPECpower_ssj2008 results](https://www.spec.org/power_ssj2008/results/)
+to perform these calculations.
 
-These values are based on the [SPECpower_ssj2008
-results](https://www.spec.org/power_ssj2008/results/).
-
-The original work was done by [David Mytton](http://davidmytton.co.uk/) and it is archived
+The original work was done by [David Mytton](http://davidmytton.co.uk/), and it is archived
 [here](https://github.com/cloud-carbon-footprint/cloud-carbon-coefficients).
 
 ## Outputs
 
-The outputs of this tool used in Cloud Carbon Footprint are two:
+There are two outputs of this tool used in Cloud Carbon Footprint:
 
-1. **Use stage coefficients:** Values are calculated within the notebook and
-   output in-line for Azure (min watts, max watts, GB/chip), AWS (min watts, max
-   watts, GB/chip) and GCP (min watts, max watts). The file to drop them into in
-   CCF is indicated in the notebook. A CSV is created in `output/` with the
-   values for each CPU architecture, currently for reference only.
+1. **Usage coefficients:** Values calculated within for Azure (min watts, max watts, GB/chip), 
+  AWS (min watts, max watts, GB/chip) and GCP (min watts, max watts). Results will be in a 
+  CSV file in the `output/` with the values for each CPU architecture for each cloud platform.
 
-2. **Embodied emissions coefficients:** Values are calculated within the
-   notebook and output to CSV in `output/` for each instance type for each cloud
-   platform in `kgCO2e`.
+2. **Embodied emissions coefficients:** Values are calculated and output to CSV in 
+  `output/` for each instance type for each cloud platform in `kgCO2e`.
 
 ## Setup
 
-This command line is writen in Python and manages its dependencies through
+This command line is written in Python and manages its dependencies through
 [poetry](https://python-poetry.org/). Steps: 
 
 * Ensure you have or install Python 3.10 with `python3 --version`
@@ -61,7 +56,7 @@ Commands:
   usage-coefficients     Calculate the usage coefficients for each cloud...
 ```
 
-### Generating the coefficients
+### Generating coefficients
 
 * `usage-coefficients`: This command will calculate the usage coefficients for
   each cloud provider and output them to CSV in `output/`.
