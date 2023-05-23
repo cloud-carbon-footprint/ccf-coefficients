@@ -27,9 +27,11 @@ CPU_FAMILIES = [
     Family(name='Ivy Bridge', short='intel-ivybridge'),
     Family(name='Haswell', short='intel-haswell'),
     Family(name='Broadwell', short='intel-broadwell'),
-    Family(name='Skylake', short='intel-skylake'),
+    Family(name='Skylake (Server)', short='intel-skylake-server'),
+    Family(name='Skylake (Client)', short='intel-skylake-client'),
     Family(name='Cascade Lake', short='intel-cascadelake'),
-    Family(name='Coffee Lake', short='intel-coffeelake')]
+    Family(name='Coffee Lake', short='intel-coffeelake'),
+    Family(name='Ice Lake', short='intel-icelake')]
 
 # default SPECpower results file, it will be overwritten by the
 # global option --spec-version or latest version if not specified
@@ -67,6 +69,25 @@ def list_specs(raw):
             click.secho(f'file: {click.style(spec.name, fg="white")} '
                         f'version:{click.style(version, fg="yellow")}')
 
+@cli.command()
+def verify_cpu_models():
+    """
+    Check for duplication of CPU models across the families files.
+    """
+    duplicated_models = {}
+    for family in CPU_FAMILIES:
+        family_info = CPUInfo.instantiate(DATA_DIR.joinpath(f"{family.short}.csv"))
+        for model in family_info.cpus:
+            if model in duplicated_models:
+                duplicated_models[model].append(family.short)
+            else:
+                duplicated_models[model] = [family.short]
+
+    if duplicated_models:
+        click.secho('Duplicated CPU models:', fg='red')
+        for model, families in duplicated_models.items():
+            if len(families) > 1:
+                click.secho(f'{click.style(model, fg="white")} is present in {click.style(families, fg="yellow")}')
 
 @cli.command()
 def show_constants():
