@@ -75,20 +75,22 @@ def verify_cpu_models():
     """
     Check for duplication of CPU models across the families files.
     """
-    duplicated_models = {}
+    model_families = {}
     for family in CPU_FAMILIES:
         family_info = CPUInfo.instantiate(DATA_DIR.joinpath(f"{family.short}.csv"))
         for model in family_info.cpus:
-            if model in duplicated_models:
-                duplicated_models[model].append(family.short)
+            if model in model_families:
+                model_families[model].append(family.short)
             else:
-                duplicated_models[model] = [family.short]
+                model_families[model] = [family.short]
 
-    if duplicated_models:
+    duplicated = {model: family for model, family in model_families.items() if len(family) > 1}
+    if duplicated:
         click.secho('Duplicated CPU models:', fg='red')
-        for model, families in duplicated_models.items():
-            if len(families) > 1:
-                click.secho(f'{click.style(model, fg="white")} is present in {click.style(families, fg="yellow")}')
+        for model, families in duplicated.items():
+            click.secho(f'{click.style(model, fg="white")} is present in {click.style(families, fg="yellow")}')
+    else:
+        click.secho('No duplications on CPU models found.', fg='green')
 
 @cli.command()
 def show_constants():
