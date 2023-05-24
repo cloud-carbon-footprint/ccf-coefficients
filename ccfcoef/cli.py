@@ -23,6 +23,7 @@ CPU_FAMILIES = [
     Family(name='EPYC 1st Gen', short='amd-epyc-gen1'),
     Family(name='EPYC 2nd Gen', short='amd-epyc-gen2'),
     Family(name='EPYC 3rd Gen', short='amd-epyc-gen3'),
+    Family(name='Neoverse N1', short='amd-neoverse-n1'),
     Family(name='Sandy Bridge', short='intel-sandybridge'),
     Family(name='Ivy Bridge', short='intel-ivybridge'),
     Family(name='Haswell', short='intel-haswell'),
