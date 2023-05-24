@@ -70,6 +70,7 @@ def list_specs(raw):
             click.secho(f'file: {click.style(spec.name, fg="white")} '
                         f'version:{click.style(version, fg="yellow")}')
 
+
 @cli.command()
 def verify_cpu_models():
     """
@@ -91,6 +92,7 @@ def verify_cpu_models():
             click.secho(f'{click.style(model, fg="white")} is present in {click.style(families, fg="yellow")}')
     else:
         click.secho('No duplications on CPU models found.', fg='green')
+
 
 @cli.command()
 def show_constants():
@@ -258,6 +260,9 @@ def tag_spec(write):
 
     spec = SPECPower.instantiate(SPEC_RESULTS_FILE)
     tagged = spec.tag_cpu_family(cpus)
+
+    tagged_cpus_count = tagged['CPU Family'].count()
+    click.secho(f'Matched {tagged_cpus_count} CPUs in {len(tagged)} SPECpower entries.', fg='white')
 
     output[write](tagged, f'{SPEC_RESULTS_FILE.stem}-tagged.csv')
 
