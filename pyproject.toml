@@ -10,7 +10,7 @@ packages = [{include = "ccfcoef"}]
 python = "^3.10"
 click = "^8.1.3"
 pytest = "^7.3.1"
-pandas = "^2.0.1"
+pandas = "^2.0.2"
 regex = "^2023.5.5"
 requests = "^2.30.0"
 
