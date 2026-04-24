@@ -1,0 +1,340 @@
+Instance Type,Instance vCPU,Instance Memory,Platform,Platform Embedded Emissions (kgCo2eq),Platform Embedded Emissions (mtCo2eq),Manufacturer,Microarchitecture,CPU Name
+c4a-standard-1,1,4,c4a-standard,37000,37,Google,,Google Axion
+c4a-standard-2,2,8,c4a-standard,37000,37,Google,,Google Axion
+c4a-standard-4,4,16,c4a-standard,37000,37,Google,,Google Axion
+c4a-standard-8,8,32,c4a-standard,37000,37,Google,,Google Axion
+c4a-standard-16,16,64,c4a-standard,37000,37,Google,,Google Axion
+c4a-standard-32,32,128,c4a-standard,37000,37,Google,,Google Axion
+c4a-standard-48,48,192,c4a-standard,37000,37,Google,,Google Axion
+c4a-standard-64,64,256,c4a-standard,37000,37,Google,,Google Axion
+c4a-standard-72,72,288,c4a-standard,37000,37,Google,,Google Axion
+c4a-highcpu-1,1,2,c4a-highcpu,10000,10,Google,,Google Axion
+c4a-highcpu-2,2,4,c4a-highcpu,10000,10,Google,,Google Axion
+c4a-highcpu-4,4,8,c4a-highcpu,10000,10,Google,,Google Axion
+c4a-highcpu-8,8,16,c4a-highcpu,10000,10,Google,,Google Axion
+c4a-highcpu-16,16,32,c4a-highcpu,10000,10,Google,,Google Axion
+c4a-highcpu-32,32,64,c4a-highcpu,10000,10,Google,,Google Axion
+c4a-highcpu-48,48,96,c4a-highcpu,10000,10,Google,,Google Axion
+c4a-highcpu-64,64,128,c4a-highcpu,10000,10,Google,,Google Axion
+c4a-highcpu-72,72,144,c4a-highcpu,10000,10,Google,,Google Axion
+c4a-highmem-1,1,8,c4a-highmem,150000,150,Google,,Google Axion
+c4a-highmem-2,2,16,c4a-highmem,150000,150,Google,,Google Axion
+c4a-highmem-4,4,32,c4a-highmem,150000,150,Google,,Google Axion
+c4a-highmem-8,8,64,c4a-highmem,150000,150,Google,,Google Axion
+c4a-highmem-16,16,128,c4a-highmem,150000,150,Google,,Google Axion
+c4a-highmem-32,32,256,c4a-highmem,150000,150,Google,,Google Axion
+c4a-highmem-48,48,384,c4a-highmem,150000,150,Google,,Google Axion
+c4a-highmem-64,64,512,c4a-highmem,150000,150,Google,,Google Axion
+c4a-highmem-72,72,576,c4a-highmem,150000,150,Google,,Google Axion
+c4a-standard-4-lssd,4,16,c4a-standard-lssd,38000,38,Google,,Google Axion
+c4a-standard-8-lssd,8,32,c4a-standard-lssd,38000,38,Google,,Google Axion
+c4a-standard-16-lssd,16,64,c4a-standard-lssd,38000,38,Google,,Google Axion
+c4a-standard-32-lssd,32,128,c4a-standard-lssd,38000,38,Google,,Google Axion
+c4a-standard-48-lssd,48,192,c4a-standard-lssd,38000,38,Google,,Google Axion
+c4a-standard-64-lssd,64,256,c4a-standard-lssd,38000,38,Google,,Google Axion
+c4a-standard-72-lssd,72,288,c4a-standard-lssd,38000,38,Google,,Google Axion
+c4a-highmem-4-lssd,4,32,c4a-highmem-lssd,150000,150,Google,,Google Axion
+c4a-highmem-8-lssd,8,64,c4a-highmem-lssd,150000,150,Google,,Google Axion
+c4a-highmem-16-lssd,16,128,c4a-highmem-lssd,150000,150,Google,,Google Axion
+c4a-highmem-32-lssd,32,256,c4a-highmem-lssd,150000,150,Google,,Google Axion
+c4a-highmem-48-lssd,48,384,c4a-highmem-lssd,150000,150,Google,,Google Axion
+c4a-highmem-64-lssd,64,512,c4a-highmem-lssd,150000,150,Google,,Google Axion
+c4a-highmem-72-lssd,72,576,c4a-highmem-lssd,150000,150,Google,,Google Axion
+c4-standard-2,2,7,c4-standard,230000,230,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+c4-standard-4,4,15,c4-standard,230000,230,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+c4-standard-8,8,30,c4-standard,230000,230,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+c4-standard-16,16,60,c4-standard,230000,230,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+c4-standard-32,32,120,c4-standard,230000,230,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+c4-standard-48,48,180,c4-standard,230000,230,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+c4-standard-96,96,360,c4-standard,230000,230,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+c4-standard-192,192,720,c4-standard,230000,230,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+c4-highcpu-2,2,4,c4-highcpu,66000,66,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+c4-highcpu-4,4,8,c4-highcpu,66000,66,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+c4-highcpu-8,8,16,c4-highcpu,66000,66,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+c4-highcpu-16,16,32,c4-highcpu,66000,66,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+c4-highcpu-32,32,64,c4-highcpu,66000,66,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+c4-highcpu-48,48,96,c4-highcpu,66000,66,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+c4-highcpu-96,96,192,c4-highcpu,66000,66,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+c4-highcpu-192,192,384,c4-highcpu,66000,66,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+c4-highmem-2,2,15,c4-highmem,1000000,1000,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+c4-highmem-4,4,31,c4-highmem,1000000,1000,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+c4-highmem-8,8,62,c4-highmem,1000000,1000,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+c4-highmem-16,16,124,c4-highmem,1000000,1000,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+c4-highmem-32,32,248,c4-highmem,1000000,1000,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+c4-highmem-48,48,372,c4-highmem,1000000,1000,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+c4-highmem-96,96,744,c4-highmem,1000000,1000,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+c4-highmem-192,192,1488,c4-highmem,1000000,1000,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+n4-standard-2,2,8,n4-standard,46000,46,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+n4-standard-4,4,16,n4-standard,46000,46,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+n4-standard-8,8,32,n4-standard,46000,46,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+n4-standard-16,16,64,n4-standard,46000,46,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+n4-standard-32,32,128,n4-standard,46000,46,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+n4-standard-48,48,192,n4-standard,46000,46,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+n4-standard-64,64,256,n4-standard,46000,46,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+n4-standard-80,80,320,n4-standard,46000,46,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+n4-highcpu-2,2,4,n4-highcpu,12000,12,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+n4-highcpu-4,4,8,n4-highcpu,12000,12,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+n4-highcpu-8,8,16,n4-highcpu,12000,12,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+n4-highcpu-16,16,32,n4-highcpu,12000,12,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+n4-highcpu-32,32,64,n4-highcpu,12000,12,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+n4-highcpu-48,48,96,n4-highcpu,12000,12,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+n4-highcpu-64,64,128,n4-highcpu,12000,12,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+n4-highcpu-80,80,160,n4-highcpu,12000,12,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+n4-highmem-2,2,16,n4-highmem,180000,180,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+n4-highmem-4,4,32,n4-highmem,180000,180,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+n4-highmem-8,8,64,n4-highmem,180000,180,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+n4-highmem-16,16,128,n4-highmem,180000,180,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+n4-highmem-32,32,256,n4-highmem,180000,180,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+n4-highmem-48,48,384,n4-highmem,180000,180,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+n4-highmem-64,64,512,n4-highmem,180000,180,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+n4-highmem-80,80,640,n4-highmem,180000,180,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+c3d-standard-4,4,16,c3d-standard,900000,900,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-standard-8,8,32,c3d-standard,900000,900,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-standard-16,16,64,c3d-standard,900000,900,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-standard-30,30,120,c3d-standard,900000,900,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-standard-60,60,240,c3d-standard,900000,900,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-standard-90,90,360,c3d-standard,900000,900,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-standard-180,180,720,c3d-standard,900000,900,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-standard-360,360,1440,c3d-standard,900000,900,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-highcpu-4,4,8,c3d-highcpu,220000,220,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-highcpu-8,8,16,c3d-highcpu,220000,220,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-highcpu-16,16,32,c3d-highcpu,220000,220,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-highcpu-30,30,59,c3d-highcpu,220000,220,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-highcpu-60,60,118,c3d-highcpu,220000,220,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-highcpu-90,90,177,c3d-highcpu,220000,220,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-highcpu-180,180,354,c3d-highcpu,220000,220,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-highcpu-360,360,708,c3d-highcpu,220000,220,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-highmem-4,4,32,c3d-highmem,3700000,3700,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-highmem-8,8,64,c3d-highmem,3700000,3700,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-highmem-16,16,128,c3d-highmem,3700000,3700,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-highmem-30,30,240,c3d-highmem,3700000,3700,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-highmem-60,60,480,c3d-highmem,3700000,3700,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-highmem-90,90,720,c3d-highmem,3700000,3700,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-highmem-180,180,1440,c3d-highmem,3700000,3700,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-highmem-360,360,2880,c3d-highmem,3700000,3700,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-standard-8-lssd,8,32,c3d-standard,900000,900,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-standard-16-lssd,16,64,c3d-standard,900000,900,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-standard-30-lssd,30,120,c3d-standard,900000,900,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-standard-60-lssd,60,240,c3d-standard,900000,900,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-standard-90-lssd,90,360,c3d-standard,900000,900,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-standard-180-lssd,180,720,c3d-standard,900000,900,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-standard-360-lssd,360,1440,c3d-standard,900000,900,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-highmem-8-lssd,8,64,c3d-highmem,3700000,3700,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-highmem-16-lssd,16,128,c3d-highmem,3700000,3700,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-highmem-30-lssd,30,240,c3d-highmem,3700000,3700,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-highmem-60-lssd,60,480,c3d-highmem,3700000,3700,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-highmem-90-lssd,90,720,c3d-highmem,3700000,3700,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-highmem-180-lssd,180,1440,c3d-highmem,3700000,3700,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3d-highmem-360-lssd,360,2880,c3d-highmem,3700000,3700,AMD,EPYC 4th Gen,AMD EPYC 9B14
+c3-standard-4,4,16,c3-standard,220000,220,Intel,Sapphire Rapids,Intel Xeon Platinum 8481C
+c3-standard-8,8,32,c3-standard,220000,220,Intel,Sapphire Rapids,Intel Xeon Platinum 8481C
+c3-standard-22,22,88,c3-standard,220000,220,Intel,Sapphire Rapids,Intel Xeon Platinum 8481C
+c3-standard-44,44,176,c3-standard,220000,220,Intel,Sapphire Rapids,Intel Xeon Platinum 8481C
+c3-standard-88,88,352,c3-standard,220000,220,Intel,Sapphire Rapids,Intel Xeon Platinum 8481C
+c3-standard-176,176,704,c3-standard,220000,220,Intel,Sapphire Rapids,Intel Xeon Platinum 8481C
+c3-standard-192-metal,192,768,c3-standard-192-metal,260000,260,Intel,Sapphire Rapids,Intel Xeon Platinum 8481C
+c3-highcpu-4,4,8,c3-highcpu,56000,56,Intel,Sapphire Rapids,Intel Xeon Platinum 8481C
+c3-highcpu-8,8,16,c3-highcpu,56000,56,Intel,Sapphire Rapids,Intel Xeon Platinum 8481C
+c3-highcpu-22,22,44,c3-highcpu,56000,56,Intel,Sapphire Rapids,Intel Xeon Platinum 8481C
+c3-highcpu-44,44,88,c3-highcpu,56000,56,Intel,Sapphire Rapids,Intel Xeon Platinum 8481C
+c3-highcpu-88,88,176,c3-highcpu,56000,56,Intel,Sapphire Rapids,Intel Xeon Platinum 8481C
+c3-highcpu-176,176,352,c3-highcpu,56000,56,Intel,Sapphire Rapids,Intel Xeon Platinum 8481C
+c3-highcpu-192-metal,192,512,c3-highcpu-192-metal,120000,120,Intel,Sapphire Rapids,Intel Xeon Platinum 8481C
+c3-highmem-4,4,32,c3-highmem,900000,900,Intel,Sapphire Rapids,Intel Xeon Platinum 8481C
+c3-highmem-8,8,64,c3-highmem,900000,900,Intel,Sapphire Rapids,Intel Xeon Platinum 8481C
+c3-highmem-22,22,176,c3-highmem,900000,900,Intel,Sapphire Rapids,Intel Xeon Platinum 8481C
+c3-highmem-44,44,352,c3-highmem,900000,900,Intel,Sapphire Rapids,Intel Xeon Platinum 8481C
+c3-highmem-88,88,704,c3-highmem,900000,900,Intel,Sapphire Rapids,Intel Xeon Platinum 8481C
+c3-highmem-176,176,1408,c3-highmem,900000,900,Intel,Sapphire Rapids,Intel Xeon Platinum 8481C
+c3-highmem-192-metal,192,1536,c3-highmem-192-metal,1000000,1000,Intel,Sapphire Rapids,Intel Xeon Platinum 8481C
+c3-standard-4-lssd,4,16,c3-standard,220000,220,Intel,Sapphire Rapids,Intel Xeon Platinum 8481C
+c3-standard-8-lssd,8,32,c3-standard,220000,220,Intel,Sapphire Rapids,Intel Xeon Platinum 8481C
+c3-standard-22-lssd,22,88,c3-standard,220000,220,Intel,Sapphire Rapids,Intel Xeon Platinum 8481C
+c3-standard-44-lssd,44,176,c3-standard,220000,220,Intel,Sapphire Rapids,Intel Xeon Platinum 8481C
+c3-standard-88-lssd,88,352,c3-standard,220000,220,Intel,Sapphire Rapids,Intel Xeon Platinum 8481C
+c3-standard-176-lssd,176,704,c3-standard,220000,220,Intel,Sapphire Rapids,Intel Xeon Platinum 8481C
+n2d-standard-2,2,8,n2d-standard,360000,360,AMD,EPYC 2nd Gen,AMD EPYC 7B12
+n2d-standard-4,4,16,n2d-standard,360000,360,AMD,EPYC 2nd Gen,AMD EPYC 7B12
+n2d-standard-8,8,32,n2d-standard,360000,360,AMD,EPYC 2nd Gen,AMD EPYC 7B12
+n2d-standard-16,16,64,n2d-standard,360000,360,AMD,EPYC 2nd Gen,AMD EPYC 7B12
+n2d-standard-32,32,128,n2d-standard,360000,360,AMD,EPYC 2nd Gen,AMD EPYC 7B12
+n2d-standard-48,48,192,n2d-standard,360000,360,AMD,EPYC 2nd Gen,AMD EPYC 7B12
+n2d-standard-64,64,256,n2d-standard,360000,360,AMD,EPYC 2nd Gen,AMD EPYC 7B12
+n2d-standard-80,80,320,n2d-standard,360000,360,AMD,EPYC 2nd Gen,AMD EPYC 7B12
+n2d-standard-96,96,384,n2d-standard,360000,360,AMD,EPYC 2nd Gen,AMD EPYC 7B12
+n2d-standard-128,128,512,n2d-standard,360000,360,AMD,EPYC 2nd Gen,AMD EPYC 7B12
+n2d-standard-224,224,896,n2d-standard,360000,360,AMD,EPYC 2nd Gen,AMD EPYC 7B12
+n2d-highmem-2,2,16,n2d-highmem,23000,23,AMD,EPYC 2nd Gen,AMD EPYC 7B12
+n2d-highmem-4,4,32,n2d-highmem,23000,23,AMD,EPYC 2nd Gen,AMD EPYC 7B12
+n2d-highmem-8,8,64,n2d-highmem,23000,23,AMD,EPYC 2nd Gen,AMD EPYC 7B12
+n2d-highmem-16,16,128,n2d-highmem,23000,23,AMD,EPYC 2nd Gen,AMD EPYC 7B12
+n2d-highmem-32,32,256,n2d-highmem,23000,23,AMD,EPYC 2nd Gen,AMD EPYC 7B12
+n2d-highmem-48,48,384,n2d-highmem,23000,23,AMD,EPYC 2nd Gen,AMD EPYC 7B12
+n2d-highmem-64,64,512,n2d-highmem,23000,23,AMD,EPYC 2nd Gen,AMD EPYC 7B12
+n2d-highmem-80,80,640,n2d-highmem,23000,23,AMD,EPYC 2nd Gen,AMD EPYC 7B12
+n2d-highmem-96,96,768,n2d-highmem,23000,23,AMD,EPYC 2nd Gen,AMD EPYC 7B12
+n2d-highcpu-2,2,2,n2d-highcpu,260000,260,AMD,EPYC 2nd Gen,AMD EPYC 7B12
+n2d-highcpu-4,4,4,n2d-highcpu,260000,260,AMD,EPYC 2nd Gen,AMD EPYC 7B12
+n2d-highcpu-8,8,8,n2d-highcpu,260000,260,AMD,EPYC 2nd Gen,AMD EPYC 7B12
+n2d-highcpu-16,16,16,n2d-highcpu,260000,260,AMD,EPYC 2nd Gen,AMD EPYC 7B12
+n2d-highcpu-32,32,32,n2d-highcpu,260000,260,AMD,EPYC 2nd Gen,AMD EPYC 7B12
+n2d-highcpu-48,48,48,n2d-highcpu,260000,260,AMD,EPYC 2nd Gen,AMD EPYC 7B12
+n2d-highcpu-64,64,64,n2d-highcpu,260000,260,AMD,EPYC 2nd Gen,AMD EPYC 7B12
+n2d-highcpu-80,80,80,n2d-highcpu,260000,260,AMD,EPYC 2nd Gen,AMD EPYC 7B12
+n2d-highcpu-96,96,96,n2d-highcpu,260000,260,AMD,EPYC 2nd Gen,AMD EPYC 7B12
+n2d-highcpu-128,128,128,n2d-highcpu,260000,260,AMD,EPYC 2nd Gen,AMD EPYC 7B12
+n2d-highcpu-224,224,224,n2d-highcpu,260000,260,AMD,EPYC 2nd Gen,AMD EPYC 7B12
+n2-standard-2,2,8,n2-standard,120000,120,Intel,Ice Lake,Intel Xeon Platinum 8373C
+n2-standard-4,4,16,n2-standard,120000,120,Intel,Ice Lake,Intel Xeon Platinum 8373C
+n2-standard-8,8,32,n2-standard,120000,120,Intel,Ice Lake,Intel Xeon Platinum 8373C
+n2-standard-16,16,64,n2-standard,120000,120,Intel,Ice Lake,Intel Xeon Platinum 8373C
+n2-standard-32,32,128,n2-standard,120000,120,Intel,Ice Lake,Intel Xeon Platinum 8373C
+n2-standard-48,48,192,n2-standard,120000,120,Intel,Ice Lake,Intel Xeon Platinum 8373C
+n2-standard-64,64,256,n2-standard,120000,120,Intel,Ice Lake,Intel Xeon Platinum 8373C
+n2-standard-80,80,320,n2-standard,120000,120,Intel,Ice Lake,Intel Xeon Platinum 8373C
+n2-standard-96,96,384,n2-standard,120000,120,Intel,Ice Lake,Intel Xeon Platinum 8373C
+n2-standard-128,128,512,n2-standard,120000,120,Intel,Ice Lake,Intel Xeon Platinum 8373C
+n2-highmem-2,2,16,n2-highmem,120000,120,Intel,Ice Lake,Intel Xeon Platinum 8373C
+n2-highmem-4,4,32,n2-highmem,120000,120,Intel,Ice Lake,Intel Xeon Platinum 8373C
+n2-highmem-8,8,64,n2-highmem,120000,120,Intel,Ice Lake,Intel Xeon Platinum 8373C
+n2-highmem-16,16,128,n2-highmem,120000,120,Intel,Ice Lake,Intel Xeon Platinum 8373C
+n2-highmem-32,32,256,n2-highmem,120000,120,Intel,Ice Lake,Intel Xeon Platinum 8373C
+n2-highmem-48,48,384,n2-highmem,120000,120,Intel,Ice Lake,Intel Xeon Platinum 8373C
+n2-highmem-64,64,512,n2-highmem,120000,120,Intel,Ice Lake,Intel Xeon Platinum 8373C
+n2-highmem-80,80,640,n2-highmem,120000,120,Intel,Ice Lake,Intel Xeon Platinum 8373C
+n2-highmem-96,96,768,n2-highmem,120000,120,Intel,Ice Lake,Intel Xeon Platinum 8373C
+n2-highmem-128,128,864,n2-highmem,120000,120,Intel,Ice Lake,Intel Xeon Platinum 8373C
+n2-highcpu-2,2,2,n2-highcpu,330000,330,Intel,Ice Lake,Intel Xeon Platinum 8373C
+n2-highcpu-4,4,4,n2-highcpu,330000,330,Intel,Ice Lake,Intel Xeon Platinum 8373C
+n2-highcpu-8,8,8,n2-highcpu,330000,330,Intel,Ice Lake,Intel Xeon Platinum 8373C
+n2-highcpu-16,16,16,n2-highcpu,330000,330,Intel,Ice Lake,Intel Xeon Platinum 8373C
+n2-highcpu-32,32,32,n2-highcpu,330000,330,Intel,Ice Lake,Intel Xeon Platinum 8373C
+n2-highcpu-48,48,48,n2-highcpu,330000,330,Intel,Ice Lake,Intel Xeon Platinum 8373C
+n2-highcpu-64,64,64,n2-highcpu,330000,330,Intel,Ice Lake,Intel Xeon Platinum 8373C
+n2-highcpu-80,80,80,n2-highcpu,330000,330,Intel,Ice Lake,Intel Xeon Platinum 8373C
+n2-highcpu-96,96,96,n2-highcpu,330000,330,Intel,Ice Lake,Intel Xeon Platinum 8373C
+e2-standard-2,2,8,e2-standard,8000,8,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+e2-standard-4,4,16,e2-standard,8000,8,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+e2-standard-8,8,32,e2-standard,8000,8,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+e2-standard-16,16,64,e2-standard,8000,8,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+e2-standard-32,32,128,e2-standard,8000,8,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+e2-highmem-2,2,16,e2-highmem,8000,8,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+e2-highmem-4,4,32,e2-highmem,8000,8,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+e2-highmem-8,8,64,e2-highmem,8000,8,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+e2-highmem-16,16,128,e2-highmem,8000,8,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+e2-highcpu-2,2,2,e2-highcpu,890,0.89,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+e2-highcpu-4,4,4,e2-highcpu,890,0.89,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+e2-highcpu-8,8,8,e2-highcpu,890,0.89,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+e2-highcpu-16,16,16,e2-highcpu,890,0.89,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+e2-highcpu-32,32,32,e2-highcpu,890,0.89,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+e2-micro,2,1,e2-sharedcores,400,0.4,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+e2-small,2,2,e2-sharedcores,400,0.4,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+e2-medium,2,4,e2-sharedcores,400,0.4,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+n1-standard-1,1,3.75,n1-standard,58000,58,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+n1-standard-2,2,7.5,n1-standard,58000,58,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+n1-standard-4,4,15,n1-standard,58000,58,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+n1-standard-8,8,30,n1-standard,58000,58,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+n1-standard-16,16,60,n1-standard,58000,58,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+n1-standard-32,32,120,n1-standard,58000,58,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+n1-standard-64,64,240,n1-standard,58000,58,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+n1-standard-96,96,360,n1-standard,58000,58,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+n1-highmem-2,2,13,n1-highmem,170000,170,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+n1-highmem-4,4,26,n1-highmem,170000,170,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+n1-highmem-8,8,52,n1-highmem,170000,170,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+n1-highmem-16,16,104,n1-highmem,170000,170,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+n1-highmem-32,32,208,n1-highmem,170000,170,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+n1-highmem-64,64,416,n1-highmem,170000,170,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+n1-highmem-96,96,624,n1-highmem,170000,170,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+n1-highcpu-2,2,1.8,n1-highcpu,4600,4.6,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+n1-highcpu-4,4,3.6,n1-highcpu,4600,4.6,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+n1-highcpu-8,8,7.2,n1-highcpu,4600,4.6,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+n1-highcpu-16,16,14.4,n1-highcpu,4600,4.6,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+n1-highcpu-32,32,28.8,n1-highcpu,4600,4.6,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+n1-highcpu-64,64,57.6,n1-highcpu,4600,4.6,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+n1-highcpu-96,96,86.4,n1-highcpu,4600,4.6,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+f1-micro,1,0.6,n1-sharedcores,400,0.4,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+g1-small,1,1.7,n1-sharedcores,400,0.4,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+t2a-standard-1,1,4,t2a-standard,17000,17,Ampere,Quicksilver,Ampere Altra Q64-30
+t2a-standard-2,2,8,t2a-standard,17000,17,Ampere,Quicksilver,Ampere Altra Q64-30
+t2a-standard-4,4,16,t2a-standard,17000,17,Ampere,Quicksilver,Ampere Altra Q64-30
+t2a-standard-8,8,32,t2a-standard,17000,17,Ampere,Quicksilver,Ampere Altra Q64-30
+t2a-standard-16,16,64,t2a-standard,17000,17,Ampere,Quicksilver,Ampere Altra Q64-30
+t2a-standard-32,32,128,t2a-standard,17000,17,Ampere,Quicksilver,Ampere Altra Q64-30
+t2a-standard-48,48,192,t2a-standard,17000,17,Ampere,Quicksilver,Ampere Altra Q64-30
+t2d-standard-1,1,4,t2d-standard,26000,26,AMD,EPYC 3rd Gen,AMD EPYC 7B13
+t2d-standard-2,2,8,t2d-standard,26000,26,AMD,EPYC 3rd Gen,AMD EPYC 7B13
+t2d-standard-4,4,16,t2d-standard,26000,26,AMD,EPYC 3rd Gen,AMD EPYC 7B13
+t2d-standard-8,8,32,t2d-standard,26000,26,AMD,EPYC 3rd Gen,AMD EPYC 7B13
+t2d-standard-16,16,64,t2d-standard,26000,26,AMD,EPYC 3rd Gen,AMD EPYC 7B13
+t2d-standard-32,32,128,t2d-standard,26000,26,AMD,EPYC 3rd Gen,AMD EPYC 7B13
+t2d-standard-48,48,192,t2d-standard,26000,26,AMD,EPYC 3rd Gen,AMD EPYC 7B13
+t2d-standard-60,60,240,t2d-standard,26000,26,AMD,EPYC 3rd Gen,AMD EPYC 7B13
+z3-highmem-88,88,704,z3-highmem,900000,900,Intel,Sapphire Rapids,Intel Xeon Platinum 8481C
+z3-highmem-176,176,1408,z3-highmem,900000,900,Intel,Sapphire Rapids,Intel Xeon Platinum 8481C
+h3-standard-88,88,352,h3-standard,56000,56,Intel,Sapphire Rapids,Intel Xeon Platinum 8481C
+c2d-standard-2,2,8,c2d-standard,90000,90,AMD,EPYC 3rd Gen,AMD EPYC 7B13
+c2d-standard-4,4,16,c2d-standard,90000,90,AMD,EPYC 3rd Gen,AMD EPYC 7B13
+c2d-standard-8,8,32,c2d-standard,90000,90,AMD,EPYC 3rd Gen,AMD EPYC 7B13
+c2d-standard-16,16,64,c2d-standard,90000,90,AMD,EPYC 3rd Gen,AMD EPYC 7B13
+c2d-standard-32,32,128,c2d-standard,90000,90,AMD,EPYC 3rd Gen,AMD EPYC 7B13
+c2d-standard-56,56,224,c2d-standard,90000,90,AMD,EPYC 3rd Gen,AMD EPYC 7B13
+c2d-standard-112,112,448,c2d-standard,90000,90,AMD,EPYC 3rd Gen,AMD EPYC 7B13
+c2d-highcpu-2,2,4,c2d-highcpu,23000,23,AMD,EPYC 3rd Gen,AMD EPYC 7B13
+c2d-highcpu-4,4,8,c2d-highcpu,23000,23,AMD,EPYC 3rd Gen,AMD EPYC 7B13
+c2d-highcpu-8,8,16,c2d-highcpu,23000,23,AMD,EPYC 3rd Gen,AMD EPYC 7B13
+c2d-highcpu-16,16,32,c2d-highcpu,23000,23,AMD,EPYC 3rd Gen,AMD EPYC 7B13
+c2d-highcpu-32,32,64,c2d-highcpu,23000,23,AMD,EPYC 3rd Gen,AMD EPYC 7B13
+c2d-highcpu-56,56,112,c2d-highcpu,23000,23,AMD,EPYC 3rd Gen,AMD EPYC 7B13
+c2d-highcpu-112,112,224,c2d-highcpu,23000,23,AMD,EPYC 3rd Gen,AMD EPYC 7B13
+c2d-highmem-2,2,16,c2d-highmem,360000,360,AMD,EPYC 3rd Gen,AMD EPYC 7B13
+c2d-highmem-4,4,32,c2d-highmem,360000,360,AMD,EPYC 3rd Gen,AMD EPYC 7B13
+c2d-highmem-8,8,64,c2d-highmem,360000,360,AMD,EPYC 3rd Gen,AMD EPYC 7B13
+c2d-highmem-16,16,128,c2d-highmem,360000,360,AMD,EPYC 3rd Gen,AMD EPYC 7B13
+c2d-highmem-32,32,256,c2d-highmem,360000,360,AMD,EPYC 3rd Gen,AMD EPYC 7B13
+c2d-highmem-56,56,448,c2d-highmem,360000,360,AMD,EPYC 3rd Gen,AMD EPYC 7B13
+c2d-highmem-112,112,896,c2d-highmem,360000,360,AMD,EPYC 3rd Gen,AMD EPYC 7B13
+c2-standard-4,4,16,c2-standard,26000,26,Intel,Cascade Lake,Intel Xeon Gold 6253CL
+c2-standard-8,8,32,c2-standard,26000,26,Intel,Cascade Lake,Intel Xeon Gold 6253CL
+c2-standard-16,16,64,c2-standard,26000,26,Intel,Cascade Lake,Intel Xeon Gold 6253CL
+c2-standard-30,30,120,c2-standard,26000,26,Intel,Cascade Lake,Intel Xeon Gold 6253CL
+c2-standard-60,60,240,c2-standard,26000,26,Intel,Cascade Lake,Intel Xeon Gold 6253CL
+x4-megamem-960-metal,960,16384,x4-megamem-960-metal,120000000,120000,Intel,Sapphire Rapids,Intel Xeon Platinum 8490H
+x4-megamem-1440-metal,1440,24576,x4-megamem-1440-metal,270000000,270000,Intel,Sapphire Rapids,Intel Xeon Platinum 8490H
+x4-megamem-1920-metal,1920,32768,x4-megamem-1920-metal,470000000,470000,Intel,Sapphire Rapids,Intel Xeon Platinum 8490H
+m3-ultramem-32,32,976,m3-ultramem,6700000,6700,Intel,Ice Lake,Intel Xeon Platinum 8373C
+m3-ultramem-64,64,1952,m3-ultramem,6700000,6700,Intel,Ice Lake,Intel Xeon Platinum 8373C
+m3-ultramem-128,128,3904,m3-ultramem,6700000,6700,Intel,Ice Lake,Intel Xeon Platinum 8373C
+m3-megamem-64,64,976,m3-megamem,1700000,1700,Intel,Ice Lake,Intel Xeon Platinum 8373C
+m3-megamem-128,128,1952,m3-megamem,1700000,1700,Intel,Ice Lake,Intel Xeon Platinum 8373C
+m2-ultramem-208,208,5888,m2-ultramem,61000000,61000,Intel,Cascade Lake,Intel Xeon Platinum 8280L
+m2-ultramem-416,416,11776,m2-ultramem,61000000,61000,Intel,Cascade Lake,Intel Xeon Platinum 8280L
+m2-megamem-416,416,5888,m2-megamem,15000000,15000,Intel,Cascade Lake,Intel Xeon Platinum 8280L
+m2-hypermem-416,416,8832,m2-hypermem,34000000,34000,Intel,Cascade Lake,Intel Xeon Platinum 8280L
+m1-ultramem-40,40,961,m1-ultramem,6500000,6500,Intel,Broadwell,Intel Xeon E7-8880 V4
+m1-ultramem-80,80,1922,m1-ultramem,6500000,6500,Intel,Broadwell,Intel Xeon E7-8880 V4
+m1-ultramem-160,160,3844,m1-ultramem,6500000,6500,Intel,Broadwell,Intel Xeon E7-8880 V4
+m1-megamem-96,96,1433.6,m1-megamem,900000,900,Intel,Skylake,Intel Xeon Scalable Platinum 8173M
+a3-ultragpu-8g,224,2952,a3-ultragpu,3900000,3900,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+a3-megagpu-8g,208,1872,a3-megagpu,1600000,1600,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+a3-highgpu-1g,26,234,a3-highgpu,1600000,1600,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+a3-highgpu-2g,52,468,a3-highgpu,1600000,1600,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+a3-highgpu-4g,104,936,a3-highgpu,1600000,1600,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+a3-highgpu-8g,208,1872,a3-highgpu,1600000,1600,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+a3-edgegpu-8g,208,1872,a3-edgegpu,1600000,1600,Intel,Emerald Rapids,Intel Xeon Platinum 8581C
+a2-ultragpu-1g,12,85,a2-ultragpu,800000,800,Intel,Cascade Lake,Intel Xeon Platinum 8273CL
+a2-ultragpu-2g,24,340,a2-ultragpu,800000,800,Intel,Cascade Lake,Intel Xeon Platinum 8273CL
+a2-ultragpu-4g,48,680,a2-ultragpu,800000,800,Intel,Cascade Lake,Intel Xeon Platinum 8273CL
+a2-ultragpu-8g,96,1360,a2-ultragpu,800000,800,Intel,Cascade Lake,Intel Xeon Platinum 8273CL
+a2-highgpu-1g,12,85,a2-highgpu,800000,800,Intel,Cascade Lake,Intel Xeon Platinum 8273CL
+a2-highgpu-2g,24,170,a2-highgpu,800000,800,Intel,Cascade Lake,Intel Xeon Platinum 8273CL
+a2-highgpu-4g,48,340,a2-highgpu,800000,800,Intel,Cascade Lake,Intel Xeon Platinum 8273CL
+a2-highgpu-8g,96,680,a2-highgpu,800000,800,Intel,Cascade Lake,Intel Xeon Platinum 8273CL
+a2-highgpu-16g,96,1360,a2-highgpu,800000,800,Intel,Cascade Lake,Intel Xeon Platinum 8273CL
+g2-standard-4,4,16,g2-standard,66000,66,Intel,Cascade Lake,Intel Xeon Platinum 8273CL
+g2-standard-8,8,32,g2-standard,66000,66,Intel,Cascade Lake,Intel Xeon Platinum 8273CL
+g2-standard-12,12,48,g2-standard,66000,66,Intel,Cascade Lake,Intel Xeon Platinum 8273CL
+g2-standard-16,16,64,g2-standard,66000,66,Intel,Cascade Lake,Intel Xeon Platinum 8273CL
+g2-standard-24,24,96,g2-standard,66000,66,Intel,Cascade Lake,Intel Xeon Platinum 8273CL
+g2-standard-32,32,128,g2-standard,66000,66,Intel,Cascade Lake,Intel Xeon Platinum 8273CL
+g2-standard-48,48,192,g2-standard,66000,66,Intel,Cascade Lake,Intel Xeon Platinum 8273CL
+g2-standard-96,96,384,g2-standard,66000,66,Intel,Cascade Lake,Intel Xeon Platinum 8273CL

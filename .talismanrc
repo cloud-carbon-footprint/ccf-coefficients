@@ -1,0 +1,4 @@
+fileignoreconfig:
+- filename: output/coefficients-gcp-use.csv
+  checksum: a6fed228d0915c5170e42bc95d82268a27cac00e4608c8807f69a06c262f6e6c
+version: "1.0"

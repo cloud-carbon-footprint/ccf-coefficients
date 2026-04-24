@@ -23,6 +23,8 @@ CPU_FAMILIES = [
     Family(name='EPYC 1st Gen', short='amd-epyc-gen1'),
     Family(name='EPYC 2nd Gen', short='amd-epyc-gen2'),
     Family(name='EPYC 3rd Gen', short='amd-epyc-gen3'),
+    Family(name='EPYC 4th Gen', short='amd-epyc-gen4'),
+    Family(name='EPYC 5th Gen', short='amd-epyc-gen5'),
     Family(name='Neoverse N1', short='amd-neoverse-n1'),
     Family(name='Sandy Bridge', short='intel-sandybridge'),
     Family(name='Ivy Bridge', short='intel-ivybridge'),
@@ -32,7 +34,10 @@ CPU_FAMILIES = [
     Family(name='Skylake (Client)', short='intel-skylake-client'),
     Family(name='Cascade Lake', short='intel-cascadelake'),
     Family(name='Coffee Lake', short='intel-coffeelake'),
-    Family(name='Ice Lake', short='intel-icelake')]
+    Family(name='Ice Lake', short='intel-icelake'),
+    Family(name='Sapphire Rapids', short='intel-sapphirerapids'),
+    Family(name='Granite Rapids', short='intel-graniterapids'),
+    Family(name='Emerald Rapids', short='intel-emeraldrapids')]
 
 # default SPECpower results file, it will be overwritten by the
 # global option --spec-version or latest version if not specified
